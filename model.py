@@ -53,6 +53,6 @@ def train_and_save_model(data_path, model_path):
         pickle.dump(final_pipeline, file)
 
 if __name__ == '__main__':
-    data_path = "C:\\Users\\ADMIN\\Desktop\\AIKIDO\\New-Streamlit\\Data-11Col.csv"
-    model_path = "C:\\Users\\ADMIN\\Desktop\\AIKIDO\\New-Streamlit\\model.pkl"
+    data_path = "Data-11Col.csv"
+    model_path = "model.pkl"
     train_and_save_model(data_path, model_path)
